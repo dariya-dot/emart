@@ -2,7 +2,7 @@ export const mobileData = [{
 
         "id": "1",
         "product": "Mobile",
-        "image": "/assets/Mobiles/1.jpg",
+        "image": "./assets/Mobiles/1.jpg",
         "company": "Apple",
         "model": "iPhone 13 Pro",
         "price": "1099.00",
@@ -12,7 +12,7 @@ export const mobileData = [{
     {
         "id": "2",
         "product": "Mobile",
-        "image": "/assets/NewMobile/2.jpg",
+        "image": "./assets/NewMobile/2.jpg",
         "company": "Samsung",
         "model": "Galaxy Z Fold 3",
         "price": "1799.00",
