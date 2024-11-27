@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css'
 import Landingpage from './store/pages/Landingpage'
 import { Route,Routes } from 'react-router-dom'
