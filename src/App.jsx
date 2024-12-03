@@ -27,12 +27,13 @@ import Furnituresingle from './singles/Furnituresingle'
 import Watchessingle from './singles/Watchessingle'
 import Tvsingle from './singles/Tvsingle'
 
-
+import { HashRouter } from 'react-router-dom';
 
 
 const App = () => {
   return (
     <div>
+      <HashRouter >
       <Routes>
         <Route path='/' element={<Landingpage/>} />
         <Route path='/mobiles' element={<Mobilespage/>}/>
@@ -60,7 +61,9 @@ const App = () => {
         <Route path='/fridges/:id' element={<Fridgesingle/>}/>
         <Route path='/books/:id' element={<Bookssingle/>}/>
         <Route path='/ac/:id' element={<Acsingle/>}/>
-        </Routes>
+        </Routes>  
+      </HashRouter>  
+        
       
     </div>
   )

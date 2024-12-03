@@ -1,7 +1,7 @@
 export const booksData = [{
         "id": "1",
         "product": "Book",
-        "image": "assets/Books/1.jpg",
+        "image": `assets/Books/1.jpg`,
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "price": "12.99",
